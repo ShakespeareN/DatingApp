@@ -484,3 +484,4 @@ $RECYCLE.BIN/
 *.swp
 
 DatingApp/appsettings.json
+/DatingApp/appsettings.json
