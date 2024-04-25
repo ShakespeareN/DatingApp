@@ -2,6 +2,7 @@
 using DatingApp.Helpers;
 using DatingApp.Interfaces;
 using DatingApp.Services;
+using DatingApp.SignalR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DatingApp.Extensions
@@ -26,6 +27,8 @@ namespace DatingApp.Extensions
             services.AddScoped<LogUserActivity>();
             services.AddScoped<ILikesRepository, LikesRepository>();
             services.AddScoped<IMessageRepository, MessageRepository>();
+            services.AddSignalR();
+            services.AddSingleton<PresenceTracker>();
 
             return services;
         }
