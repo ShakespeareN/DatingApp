@@ -485,3 +485,8 @@ $RECYCLE.BIN/
 
 DatingApp/appsettings.json
 /DatingApp/appsettings.json
+/DatingApp/appsettings.Development.json
+/DatingApp/wwwroot
+DatingApp/appsettings.Development.json
+DatingApp/appsettings.Development.json
+DatingApp/appsettings.Development.json
